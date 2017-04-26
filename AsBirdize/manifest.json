@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "AsBirdize",
+    "version": "0.1",
+    "icons": {
+        "128": "icon128.png"
+    },
+    "content_scripts": [{
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["main.js"]
+    }]
+}
